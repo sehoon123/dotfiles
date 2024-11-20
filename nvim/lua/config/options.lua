@@ -7,7 +7,16 @@ vim.opt.list = true
 vim.opt.winbar = "%=%m %f"
 vim.opt.wrap = true
 vim.g.lazyvim_prettier_needs_config = false
+
+-- Emmet 확장 단축키 설정
 vim.g.user_emmet_leader_key = "<leader>t"
+
+-- 스크롤링 속도 개선
+vim.opt.scrolloff = 10 -- 커서 주변에 최소 5줄의 여유 공간을 유지하며 스크롤
+vim.opt.sidescrolloff = 10 -- 가로 스크롤 시 여유 공간 유지
+vim.opt.updatetime = 100 -- 화면 갱신 간격을 100ms로 설정하여 반응 속도 개선
+vim.opt.ttimeoutlen = 5 -- j/k 반복 속도를 빠르게 설정
+vim.opt.timeoutlen = 300 -- jk 키 조합의 반응 속도를 300ms로 설정
 
 -- IndentBlankline 색상 설정 (이미 사용 중이므로 유지)
 vim.cmd([[highlight IndentBlanklineIndent1 guifg=#E06C75 gui=nocombine]])
