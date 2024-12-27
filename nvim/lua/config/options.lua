@@ -8,6 +8,12 @@ vim.opt.winbar = "%=%m %f"
 vim.opt.wrap = true
 vim.g.lazyvim_prettier_needs_config = false
 
+-- Indentation settings
+-- vim.opt.tabstop = 4 -- 실제 탭 너비
+-- vim.opt.shiftwidth = 4 -- 자동 들여쓰기를 위한 스페이스 수
+-- vim.opt.expandtab = true -- 탭 대신 스페이스를 사용
+-- vim.opt.softtabstop = 4 -- 탭을 누를 때 사용되는 스페이스 수
+
 -- Emmet 확장 단축키 설정
 vim.g.user_emmet_leader_key = "<leader>t"
 

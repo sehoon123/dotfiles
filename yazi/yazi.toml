@@ -39,7 +39,7 @@ play = [
 rules = [
   { mime = "application/pdf", use = ["pdfedit"] },
 	# Folder
-	{ name = "*/", use = [ "edit", "open", "reveal" ] },
+	{ name = "*/", use = [ "open", "reveal" ] },
 	# Text
 	{ mime = "text/*", use = [ "edit", "reveal" ] },
 	# Image
